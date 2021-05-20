@@ -25,5 +25,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: |
-          docker build ./ -t nestjs_api_dev:1.0.0
+        uses: ./heroku.yml
