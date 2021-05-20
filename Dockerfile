@@ -2,9 +2,9 @@ FROM node:14.17-alpine3.13
 
 WORKDIR /src/app
 
-COPY package*.json ./
+COPY package.json ./
 
-RUN npm install --force --only=development
+RUN npm install --force
 
 RUN npm install rimraf --force
 

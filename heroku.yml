@@ -1,3 +1,5 @@
+run:
+  script: heroku stack:set heroku-20
 build:
   docker:
-    web: Dockerfile
+    web: docker-compose.yml
