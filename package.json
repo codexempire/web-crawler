@@ -35,7 +35,7 @@
     "cache-manager": "^3.4.3",
     "cache-manager-redis-store": "^2.0.0",
     "cheerio": "*",
-    "dotenv": "^8.2.0",
+    "dotenv": "^18.0.10",
     "graphql": "^15.5.0",
     "image-size": "^1.0.0",
     "nest-puppeteer": "^1.1.1",
